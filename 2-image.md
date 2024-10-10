@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-### Es una relación de inclusión. Las imágenes son plantillas dentro de un contenedor que traen consigo funcionalidades de software. De cualquier manera, no es de exclusividad porque una imagen puede estar en varios contenedores.
+# Es una relación de inclusión. Las imágenes son plantillas dentro de un contenedor que traen consigo funcionalidades de software. De cualquier manera, no es de exclusividad porque una imagen puede estar en varios contenedores.
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
@@ -24,13 +24,13 @@ docker pull <nombre imagen>:<tag>
 ```
 
 Descargar la imagen **hello-world**
-# COMPLETAR
+# docker pull hello-world
 
 **¿Qué es nginx**
-# COMPLETAR 
+# Es un servidor web de código abierto, también se lo utiliza como proxy inverso, cache de HTTP y balanceador de carga.
 
 Descargar la imagen  **nginx** en la versión **alpine**
-# COMPLETAR
+# docker pull nginx:alpine
 
 ### Listar imágenes
 
@@ -38,7 +38,7 @@ Descargar la imagen  **nginx** en la versión **alpine**
 docker images
 ```
 
-# COLOCAR UNA CAPTURA DE PANTALLA DEL RESULTADO 
+![Imagen](img/imagen.PNG)
 
 **Identificadores**
 
