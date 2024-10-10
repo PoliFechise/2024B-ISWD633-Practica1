@@ -7,6 +7,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 # Es una relación de inclusión. Las imágenes son plantillas dentro de un contenedor que traen consigo funcionalidades de software. De cualquier manera, no es de exclusividad porque una imagen puede estar en varios contenedores.
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
+
 ## Comandos para imágenes
 
 ### Descargar imagen
@@ -52,10 +53,10 @@ docker inspect <nombre imagen>:<tag>
 ```
 
 Inspeccionar la imagen hello-world 
-# COMPLETAR
+# docker inspect hello-world
 
 **¿Con qué algoritmo se está generando el ID de la imagen**
-# COMPLETAR
+# sha-256
 
 ### Filtrar imágenes
 
@@ -72,7 +73,7 @@ docker rmi <nombre imagen>:<tag>
 ```
 
 Eliminar la imagen hello-world 
-# COMPLETAR
+# docker rmi hello-world
 
 -f: Es la opción para forzar la eliminación de la imagen incluso si hay contenedores en ejecución que utilizan esa imagen.
 Cuando eliminas una imagen Docker, Docker no elimina automáticamente los contenedores que se han creado a partir de esa imagen. Esto significa que, aunque hayas eliminado la imagen, el contenedor seguirá ejecutándose normalmente.  
