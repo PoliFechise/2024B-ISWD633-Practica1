@@ -4,7 +4,7 @@ Es un archivo único que contiene todos los programas, librerías, dependencias 
 
 
 ## ¿Cuál es la relación entre una imagen y un contenedor? 
-# COMPLETAR 
+### Es una relación de inclusión. Las imágenes son plantillas dentro de un contenedor que traen consigo funcionalidades de software. De cualquier manera, no es de exclusividad porque una imagen puede estar en varios contenedores.
 
 ![Imagen y contenedores](img/imagenContenedores.JPG)
 ## Comandos para imágenes
